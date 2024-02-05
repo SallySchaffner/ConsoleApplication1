@@ -129,6 +129,12 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="SalaryData.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Salary.out" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
